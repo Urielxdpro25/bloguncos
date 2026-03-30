@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+</head>
+
+<body class="body">
+
+    <style>
+        body {
+            background: #833AB4;
+            background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            /*efecto blur*/
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            /*fin efecto blur*/
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            margin: 20px auto;
+        }
+
+        .article {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            margin: 20px auto;
+            width: 200px;
+            color: white;
+        }
+       
+        .footer {
+            background: #443b4a;
+            color: azure;
+            width: 100%;
+        }
+.main{
+     display: grid;
+  /* Crea 3 columnas iguales que ocupan el espacio disponible */
+  grid-template-columns: repeat(3, 1fr); 
+  /* Espacio entre artículos (filas y columnas) */
+  gap: 20px; 
+    border: 1px solid #ccc;
+  padding: 20px;
+
+}
+    
+
+    </style>
+
+    <header class="header">
+        <h1>Blog Uncos</h1>
+    </header>
+
+    <main class="main">
+
+        <article class="article">
+            <p>Soy Uriel Uncos</p>
+            <p>Estudiante del ITS</p>
+            <p>Estudie en el C.E.T 30</p>
+        </article>
+
+        <br>
+
+        <article class="article">
+            <p>Soy Uriel Uncos</p>
+            <p>Estudiante del ITS</p>
+        </article>
+
+        <br>
+
+        <article class="article">
+            <p>Soy Uriel Uncos</p>
+            <p>Estudiante del ITS</p>
+        </article>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 </p>
+        <p>Mi gitHub es : urielxdpro25 </p>
+    </footer>
+
+</body>
+
+</html>
